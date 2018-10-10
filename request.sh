@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 2 ]; then
+    echo 'usage: cmd $METHOD $URL'
 	exit 1
 fi
 
